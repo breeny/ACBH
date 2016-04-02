@@ -1,0 +1,4 @@
+ACBH.Droid.MainActivity, ACBH.Droid;md59913b075367b1ceab014c008cde85c21.MainActivity
+ACBH.Droid.MainActivity, ACBH.Droid, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md59913b075367b1ceab014c008cde85c21.MainActivity
+ACBH.Droid.MainActivity;md59913b075367b1ceab014c008cde85c21.MainActivity
+acbh.droid.MainActivity;md59913b075367b1ceab014c008cde85c21.MainActivity
