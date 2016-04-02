@@ -2,7 +2,10 @@ C:\Users\abree\Documents\GitHub\AustralianCraftBeerHottest100\ACBH\ACBH\ACBH.Dro
 C:\Users\abree\Documents\GitHub\AustralianCraftBeerHottest100\ACBH\ACBH\ACBH.Droid\bin\Debug\ACBH.Droid.pdb
 C:\Users\abree\Documents\GitHub\AustralianCraftBeerHottest100\ACBH\ACBH\ACBH.Droid\bin\Debug\ACBH.Droid.apk
 C:\Users\abree\Documents\GitHub\AustralianCraftBeerHottest100\ACBH\ACBH\ACBH.Droid\bin\Debug\ACBH.Droid-Signed.apk
-C:\Users\abree\Documents\GitHub\AustralianCraftBeerHottest100\ACBH\ACBH\ACBH.Droid\obj\Debug\ACBH.Droid.csprojResolveAssemblyReference.cache
+C:\Users\abree\Documents\GitHub\AustralianCraftBeerHottest100\ACBH\ACBH\ACBH.Droid\bin\Debug\Newtonsoft.Json.dll
+C:\Users\abree\Documents\GitHub\AustralianCraftBeerHottest100\ACBH\ACBH\ACBH.Droid\bin\Debug\Newtonsoft.Json.xml
+C:\Users\abree\Documents\GitHub\AustralianCraftBeerHottest100\ACBH\ACBH\ACBH.Droid\obj\Debug\res\drawable\monoandroidsplash.png
+C:\Users\abree\Documents\GitHub\AustralianCraftBeerHottest100\ACBH\ACBH\ACBH.Droid\obj\Debug\res\values\styles.xml
 C:\Users\abree\Documents\GitHub\AustralianCraftBeerHottest100\ACBH\ACBH\ACBH.Droid\obj\Debug\ACBH.Droid.dll
 C:\Users\abree\Documents\GitHub\AustralianCraftBeerHottest100\ACBH\ACBH\ACBH.Droid\obj\Debug\ACBH.Droid.pdb
 C:\Users\abree\Documents\GitHub\AustralianCraftBeerHottest100\ACBH\ACBH\ACBH.Droid\obj\Debug\android\bin\ACBH.Droid.apk

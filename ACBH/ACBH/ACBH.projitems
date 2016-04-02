@@ -10,10 +10,11 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="$(MSBuildThisFileDirectory)Model\Beer.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Model\BeerEntry.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Model\User.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Model\UserBeer.cs" />
-    <Compile Include="$(MSBuildThisFileDirectory)MyClass.cs" />
-  </ItemGroup>
-  <ItemGroup>
-    <Folder Include="$(MSBuildThisFileDirectory)Network\" />
+    <Compile Include="$(MSBuildThisFileDirectory)Model\UserRegistration.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Model\YearDetails.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Network\Client.cs" />
   </ItemGroup>
 </Project>

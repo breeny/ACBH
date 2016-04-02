@@ -8,5 +8,6 @@ namespace ACBH.Model
     {
         public Beer Beer { get; set; }
         public UserBeer UserBeer { get; set; }
+        public YearDetails YearDetails { get; set; }
     }
 }

@@ -1,6 +1,7 @@
 C:\Users\abree\Documents\GitHub\AustralianCraftBeerHottest100\ACBH\ACBH\ACBH.Droid\obj\Debug\assemblies\ACBH.Droid.dll
 C:\Users\abree\Documents\GitHub\AustralianCraftBeerHottest100\ACBH\ACBH\ACBH.Droid\obj\Debug\assemblies\Mono.Android.dll
 C:\Users\abree\Documents\GitHub\AustralianCraftBeerHottest100\ACBH\ACBH\ACBH.Droid\obj\Debug\assemblies\mscorlib.dll
+C:\Users\abree\Documents\GitHub\AustralianCraftBeerHottest100\ACBH\ACBH\ACBH.Droid\obj\Debug\assemblies\Newtonsoft.Json.dll
 C:\Users\abree\Documents\GitHub\AustralianCraftBeerHottest100\ACBH\ACBH\ACBH.Droid\obj\Debug\assemblies\System.Core.dll
 C:\Users\abree\Documents\GitHub\AustralianCraftBeerHottest100\ACBH\ACBH\ACBH.Droid\obj\Debug\assemblies\System.dll
 C:\Users\abree\Documents\GitHub\AustralianCraftBeerHottest100\ACBH\ACBH\ACBH.Droid\obj\Debug\assemblies\System.Xml.dll
