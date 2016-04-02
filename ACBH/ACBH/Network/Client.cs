@@ -8,16 +8,17 @@ using System.Threading.Tasks;
 using System.IO;
 using Newtonsoft.Json.Linq;
 using System.Linq;
+using RestSharp;
 
 namespace ACBH.Network
 {
     class Client
     {
-        string baseUrl;
+        RestClient client;
 
         public Client(string baseUrl)
         {
-            this.baseUrl = baseUrl;
+            client = new RestClient(baseUrl);
         }
 
         const string GET = "GET";
@@ -29,22 +30,22 @@ namespace ACBH.Network
 
         public async Task<ICollection<BeerEntry>> RetrieveBeers(int year)
         {
-            var yearRequest = Request(year.ToString());
-            yearRequest.Method = GET;
+            var yearRequest = new RestRequest(year.ToString() + ".json", Method.GET);
 
-            var yearResponse = await SendRequest<JObject>(yearRequest);
-            var keys = yearResponse.Properties().Select(x => x.Name.ToString());
+            var yearResponse = await client.ExecuteTaskAsync(yearRequest);
+            var json = JsonConvert.DeserializeObject<JObject>(yearResponse.Content);
+            var keys = json.Properties().Select(x => x.Name.ToString());
 
             var beers = new List<BeerEntry>();
 
             foreach (var key in keys)
             {
-                var yearDetails =  JsonConvert.DeserializeObject<YearDetails>(yearResponse[key].ToString());
+                var yearDetails = JsonConvert.DeserializeObject<YearDetails>(json[key].ToString());
                 var beerEntry = new BeerEntry();
                 beerEntry.YearDetails = yearDetails;
-                var beerRequest = Request(string.Format("beer/{0}", yearDetails.BeerID));
-                beerRequest.Method = GET;
-                beerEntry.Beer = await SendRequest<Beer>(beerRequest);
+                var beerRequest = new RestRequest(string.Format("beer/{0}.json", yearDetails.BeerID), Method.GET);
+                var beerResponse = await client.ExecuteTaskAsync(beerRequest);
+                beerEntry.Beer = JsonConvert.DeserializeObject<Beer>(beerResponse.Content);
                 beers.Add(beerEntry);
             }
 
@@ -58,9 +59,9 @@ namespace ACBH.Network
 
         HttpWebRequest Request(string path)
         {
-            var request = (HttpWebRequest)HttpWebRequest.Create(new Uri(string.Format("{0}/{1}.json", baseUrl, path)));
+            var request = (HttpWebRequest)HttpWebRequest.Create(new Uri(string.Format("{0}/{1}.json", "", path)));
             request.ContentType = CONTENT_TYPE;
-            return request
+            return request;
         }
 
         async Task<JObject> SendRequest(HttpWebRequest request)

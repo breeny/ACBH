@@ -11,7 +11,9 @@ Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "ACBH", "ACBH\ACBH\ACBH.shpr
 EndProject
 Global
 	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		ACBH\ACBH\ACBH.projitems*{51be82df-f3d5-4e7e-8266-06c30e28367a}*SharedItemsImports = 4
 		ACBH\ACBH\ACBH.projitems*{0aef1d1b-ad20-4fb8-8400-8fd6fc6c6e75}*SharedItemsImports = 13
+		ACBH\ACBH\ACBH.projitems*{cc09f6b7-7342-4601-9585-88ecd9697e26}*SharedItemsImports = 4
 	EndGlobalSection
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		AppStore|Any CPU = AppStore|Any CPU
@@ -59,7 +61,6 @@ Global
 		{CC09F6B7-7342-4601-9585-88ECD9697E26}.AppStore|iPhoneSimulator.Build.0 = AppStore|iPhoneSimulator
 		{CC09F6B7-7342-4601-9585-88ECD9697E26}.Debug|Any CPU.ActiveCfg = Debug|iPhone
 		{CC09F6B7-7342-4601-9585-88ECD9697E26}.Debug|iPhone.ActiveCfg = Debug|iPhone
-		{CC09F6B7-7342-4601-9585-88ECD9697E26}.Debug|iPhone.Build.0 = Debug|iPhone
 		{CC09F6B7-7342-4601-9585-88ECD9697E26}.Debug|iPhoneSimulator.ActiveCfg = Debug|iPhoneSimulator
 		{CC09F6B7-7342-4601-9585-88ECD9697E26}.Debug|iPhoneSimulator.Build.0 = Debug|iPhoneSimulator
 		{CC09F6B7-7342-4601-9585-88ECD9697E26}.Release|Any CPU.ActiveCfg = Release|iPhone
