@@ -11,23 +11,25 @@ using ACBH.Network;
 using ACBH.Model;
 using System.Collections.Generic;
 using ACBH.Droid.Controllers;
+using Android.Support.V7.App;
 
 namespace ACBH.Droid
 {
-	[Activity (Label = "ACBH.Droid", MainLauncher = true, Icon = "@drawable/icon")]
-	public class MainActivity : Activity
+	[Activity (Label = "ACBH.Droid", MainLauncher = true, Icon = "@drawable/icon", Theme ="@style/MyTheme")]
+	public class MainActivity : AppCompatActivity
 	{
         RecyclerView recyclerView;
+        Android.Support.V7.Widget.Toolbar toolbar;
 
         protected async override void OnCreate (Bundle bundle)
 		{
 			base.OnCreate (bundle);
 
-			// Set our view from the "main" layout resource
 			SetContentView (Resource.Layout.Main);
 
-            // Get our button from the layout resource,
-            // and attach an event to it
+            toolbar = FindViewById<Android.Support.V7.Widget.Toolbar>(Resource.Id.toolbar);
+            SetSupportActionBar(toolbar);
+
             recyclerView = FindViewById<RecyclerView>(Resource.Id.recyclerView);
             recyclerView.SetLayoutManager(new LinearLayoutManager(this));
 

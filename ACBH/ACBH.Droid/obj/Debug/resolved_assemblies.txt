@@ -12,6 +12,7 @@ C:\Users\abree\Documents\GitHub\AustralianCraftBeerHottest100\ACBH\ACBH\ACBH.Dro
 C:\Users\abree\Documents\GitHub\AustralianCraftBeerHottest100\ACBH\ACBH\ACBH.Droid\obj\Debug\assemblies\Xamarin.Android.Support.v13.dll
 C:\Users\abree\Documents\GitHub\AustralianCraftBeerHottest100\ACBH\ACBH\ACBH.Droid\obj\Debug\assemblies\Xamarin.Android.Support.v4.dll
 C:\Users\abree\Documents\GitHub\AustralianCraftBeerHottest100\ACBH\ACBH\ACBH.Droid\obj\Debug\assemblies\Xamarin.Android.Support.v7.AppCompat.dll
+C:\Users\abree\Documents\GitHub\AustralianCraftBeerHottest100\ACBH\ACBH\ACBH.Droid\obj\Debug\assemblies\Xamarin.Android.Support.v7.CardView.dll
 C:\Users\abree\Documents\GitHub\AustralianCraftBeerHottest100\ACBH\ACBH\ACBH.Droid\obj\Debug\assemblies\Xamarin.Android.Support.v7.RecyclerView.dll
 C:\Users\abree\Documents\GitHub\AustralianCraftBeerHottest100\ACBH\ACBH\ACBH.Droid\obj\Debug\assemblies\System.Runtime.Serialization.dll
 C:\Users\abree\Documents\GitHub\AustralianCraftBeerHottest100\ACBH\ACBH\ACBH.Droid\obj\Debug\assemblies\System.ServiceModel.Internals.dll

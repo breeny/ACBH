@@ -33,14 +33,12 @@ namespace ACBH.Network
             var yearRequest = new RestRequest(year.ToString() + ".json", Method.GET);
 
             var yearResponse = await client.ExecuteTaskAsync(yearRequest);
-            var json = JsonConvert.DeserializeObject<JObject>(yearResponse.Content);
-            var keys = json.Properties().Select(x => x.Name.ToString());
-
+            var jsonList = JsonConvert.DeserializeObject<JObject[]>(yearResponse.Content);
             var beers = new List<BeerEntry>();
 
-            foreach (var key in keys)
+            foreach (var json in jsonList)
             {
-                var yearDetails = JsonConvert.DeserializeObject<YearDetails>(json[key].ToString());
+                var yearDetails = JsonConvert.DeserializeObject<YearDetails>(json.ToString());
                 var beerEntry = new BeerEntry();
                 beerEntry.YearDetails = yearDetails;
                 var beerRequest = new RestRequest(string.Format("beer/{0}.json", yearDetails.BeerID), Method.GET);
