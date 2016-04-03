@@ -15,7 +15,7 @@ using Android.Support.V7.App;
 
 namespace ACBH.Droid
 {
-	[Activity (Label = "ACBH.Droid", MainLauncher = true, Icon = "@drawable/icon", Theme ="@style/MyTheme")]
+	[Activity (Label = "ACBH", MainLauncher = true, Icon = "@drawable/icon", Theme ="@style/MyTheme")]
 	public class MainActivity : AppCompatActivity
 	{
         RecyclerView recyclerView;

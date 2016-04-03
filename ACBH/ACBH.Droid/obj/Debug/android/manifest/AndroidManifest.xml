@@ -6,7 +6,7 @@
   <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
   <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
   <application android:label="ACBH" android:icon="@drawable/icon" android:name="mono.android.app.Application" android:allowBackup="true" android:debuggable="true">
-    <activity android:icon="@drawable/icon" android:label="ACBH.Droid" android:theme="@style/MyTheme" android:name="md59913b075367b1ceab014c008cde85c21.MainActivity" />
+    <activity android:icon="@drawable/icon" android:label="ACBH" android:theme="@style/MyTheme" android:name="md59913b075367b1ceab014c008cde85c21.MainActivity" />
     <provider android:name="mono.MonoRuntimeProvider" android:exported="false" android:initOrder="2147483647" android:authorities="com.acbh.mono.MonoRuntimeProvider.__mono_init__" />
     <!--suppress ExportedReceiver-->
     <receiver android:name="mono.android.Seppuku">
@@ -15,7 +15,7 @@
         <category android:name="mono.android.intent.category.SEPPUKU.com.acbh" />
       </intent-filter>
     </receiver>
-    <activity android:icon="@drawable/icon" android:label="ACBH.Droid" android:theme="@style/Mono.Android.Theme.Splash" android:name="com.acbh.TrialSplashScreen" android:noHistory="true">
+    <activity android:icon="@drawable/icon" android:label="ACBH" android:theme="@style/Mono.Android.Theme.Splash" android:name="com.acbh.TrialSplashScreen" android:noHistory="true">
       <intent-filter>
         <action android:name="android.intent.action.MAIN" />
         <category android:name="android.intent.category.LAUNCHER" />
